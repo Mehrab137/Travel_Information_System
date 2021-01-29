@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Information System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    
+    <header>
+       <h1 style="color: aliceblue;"><a href="#">Travel Information System</a></h1>
+    </header>
+          <br><br><br>
+          <p style="text-align: center;font-size: 40px;">Where to go?</p>
+          <br><br><br>
+       <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>From</h3>
+            <form>
+                <select id="pet-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="dog">Dhaka</option>
+                    <option value="cat">Chattogram</option>
+                    <option value="hamster">Sylhet</option>
+                    <option value="parrot">Khulna</option>
+                    <option value="spider">Rangpur</option>
+                    <option value="goldfish">Mymensingh</option>
+                </select>
+            </form>
+
+          </div>
+          <div class="col-sm-4">
+            <h3>To</h3>
+           <form>
+             <select id="pet-select">
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dhaka</option>
+                <option value="cat">Chattogram</option>
+                <option value="hamster">Sylhet</option>
+                <option value="parrot">Khulna</option>
+                <option value="spider">Rangpur</option>
+                <option value="goldfish">Mymensingh</option>
+             </select>
+           </form>
+          </div>
+          <div class="col-sm-4">
+            <h3>Date</h3>
+            <form>
+                <input type="date" placeholder="dd-mm-yyyy">
+            </form>        
+           
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+
+      <form>
+          <div class="sb">
+            <button type="button" class="btn btn-outline-secondary">Submit</button>
+        </div>
+      </form>
+
+      <footer>
+          <p>mehblehstuffs</p>
+      </footer>
 </body>
 </html>

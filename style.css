@@ -1,0 +1,31 @@
+body{
+    background-color: skyblue;
+}
+header{
+    background-color: teal;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 30px;
+    color: whitesmoke;
+}
+a:link {
+    color:whitesmoke;
+    background-color:transparent;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  footer{
+      position: fixed;
+      background-color: teal;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      padding: 30px;
+      color: whitesmoke;
+  }
+  .sb{
+      text-align: center;
+  }
